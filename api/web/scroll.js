@@ -6,6 +6,6 @@ window.addEventListener('scroll', () => {
   } else if (verticalScrollPx > 500 && verticalScrollPx < 1000) {
     document.body.style.backgroundColor = 'green';
   } else {
-    document.body.style.backgroundColor = 'lightblue';
+    document.body.style.backgroundColor = 'darkblue';
   }
 });
